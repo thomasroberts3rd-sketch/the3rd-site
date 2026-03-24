@@ -6,7 +6,7 @@ window.siteContent = {
   },
   contact: {
     email: 'tre@the3rd.studio',
-    instagram: '@the3rd.studio',
+    instagram: '@this_that_n_thethird',
     instagramUrl: 'https://instagram.com/the3rd.studio',
   },
   hero: {
