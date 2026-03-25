@@ -7,7 +7,7 @@ window.siteContent = {
   contact: {
     email: 'tre@the3rd.studio',
     instagram: '@this_that_n_thethird',
-    instagramUrl: 'https://instagram.com/the3rd.studio',
+    instagramUrl: 'https://instagram.com/this_that_n_thethird',
   },
   hero: {
     eyebrow: 'Retail design. Brand storytelling. Spatial impact.',
