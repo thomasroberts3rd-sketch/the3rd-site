@@ -79,15 +79,22 @@
     clientList.appendChild(chip);
   });
 
-  const projectsGrid = document.getElementById('projects-grid');
-  content.projects.items.forEach((item) => {
-    const card = document.createElement('article');
-    card.className = 'project-card';
-    card.innerHTML = `
-      <p class="project-category">${item.category}</p>
-      <h3 class="project-title">${item.title}</h3>
-      <p class="project-description">${item.description}</p>
-    `;
-    projectsGrid.appendChild(card);
-  });
+const projectsGrid = document.getElementById('projects-grid');
+content.projects.items.forEach((item) => {
+  const card = document.createElement('article');
+  card.className = 'project-card';
+
+  card.innerHTML = `
+    ${item.image ? `
+      <div class="project-image-wrap">
+        <img class="project-image" src="${item.image}" alt="${item.title}">
+      </div>
+    ` : ""}
+    <p class="project-category">${item.category}</p>
+    <h3 class="project-title">${item.title}</h3>
+    <p class="project-description">${item.description}</p>
+  `;
+
+  projectsGrid.appendChild(card);
+});
 })();
