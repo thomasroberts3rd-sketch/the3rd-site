@@ -90,15 +90,16 @@ window.siteContent = {
   },
   projects: {
     eyebrow: 'Featured Projects',
-    headline: 'Selected work can be added here as the studio site evolves.',
+    headline: 'Selected Work.',
     intro:
-      'Each card can become a live case study later. For now, this section is designed as a polished placeholder that keeps the site feeling complete.',
+      '',
     items: [
       {
-        title: 'Project Title',
-        category: 'Category • Scope',
+        title: 'Piaget Presents: The Golden Factory',
+        category: 'Experiential • Concept Design/Project Management',
         description:
-          'Short project summary goes here. Replace with a concise description of the challenge, concept, or outcome.',
+          'THE 3RD was contracted by Piaget to conceive and execute an immersive environment for Design Miami, to announce the launch of a limited edition collaboration between the brand and The Andy Warhol Foundation for the Visual Arts.',
+        image: "piaget-design-miami-2025-2.jpg"
       },
       {
         title: 'Project Title',
