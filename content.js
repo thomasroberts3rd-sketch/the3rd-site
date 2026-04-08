@@ -99,7 +99,7 @@ window.siteContent = {
         category: 'Experiential • Concept Design/Project Management',
         description:
           'THE 3RD was contracted by Piaget to conceive and execute an immersive environment for Design Miami, to announce the launch of a limited edition collaboration between the brand and The Andy Warhol Foundation for the Visual Arts.',
-        image: "images/piaget-design-miami-2025-18.jpg"
+        image: "images/THE3RD logo_white on blk_500x500.png"
       },
       {
         title: 'Project Title',
