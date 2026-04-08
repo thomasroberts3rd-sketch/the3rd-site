@@ -90,7 +90,7 @@ window.siteContent = {
   },
   projects: {
     eyebrow: 'Featured Projects',
-    headline: 'Selected Work.',
+    headline: 'Selected Work',
     intro:
       '',
     items: [
